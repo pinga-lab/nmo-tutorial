@@ -9,14 +9,24 @@ Modular code is also easier to understand and to reuse.
 The first function I'll define performs the NMO correction on a given CMP gather.
 We'll assume that the CMP gather is a 2D numpy array of amplitudes and that the velocities are a 1D numpy array with \(v_{NMO}\) for each time sample.
 
+    import numpy as np
+    import scipy.interpolate
+
     def nmo_correction(cmp, dt, offsets, velocities):
         
 
-Next,
+Now we have to define the function that calculates the reflection travel-time \(t\) and the one that samples the amplitude from the CMP using interpolation.
 
     def reflection_time(t0, offset, velocity):
 
+
+For the interpolation, we'll use cubic splines from the `scipy.interpolate` package. 
+See the tutorial by \cite{Hall_2016} on interpolation with scipy.
+
     def sample_trace(trace, time, dt):
 
+
+Figure 2 shows the results of applying our `nmo_correction` function to a synthetic CMP. 
+The Jupyter notebook has the full code for this application as well as an interactive example that uses the `nmo_correction` function for velocity analysis.
 
 Figure: (a) CMP, (b) velocity profile, (c) NMO. Maybe include lines in the NMO with the true two-way travel time.
