@@ -5,7 +5,7 @@ There you'll see that we can correct the measured travel-time of a reflected wav
 
 in which \(v_{NMO}\) is the NMO velocity.
 
-When applied to a Common Mid Point (CMP) section, equation 1 is supposed to turn the hyperbola associated with a reflection into a straight horizontal line, like we see in figure 1.
+When applied to a Common Mid Point (CMP) section, the equation above is supposed to turn the hyperbola associated with a reflection into a straight horizontal line, like we see in figure 1.
 What most text books won't tell you is *how, exactly, do you apply this equation to the data*?
 
 Read on and I'll explain step-by-step how the algorithm for NMO correction from \cite{Yilmaz_2001} works and how to implement it in Python.
