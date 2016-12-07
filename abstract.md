@@ -1,7 +1,7 @@
 Open any text book about seismic data processing and you will inevitably find a section about the Normal Moveout (NMO) correction. 
 There you'll see that we can correct the measured travel-time of a reflected wave (\(t\)) at a given offset (\(x\)) to obtain the travel-time at normal incidence (\(t_0\)) by applying the following equation (or something derived from it)
 
-$$ t_0^2 = t^2 - \dfrac{x^2}{v\_{NMO}^2}$$ 
+$$ t_0^2 = t^2 - \dfrac{x^2}{v_{NMO}^2}$$ 
 
 in which \(v_{NMO}\) is the NMO velocity.
 
