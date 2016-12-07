@@ -1,2 +1,2 @@
 The accompanying Jupyter notebook contains the full source code as well as an interactive example for velocity analysis.
-You can download the notebook at [github.com/seg](https://github.com/seg) or find links to run it online at [github.com/pinga-lab/nmo-tutorial](
+You can download the notebook at [github.com/seg](https://github.com/seg) or find links to run it online at [github.com/pinga-lab/nmo-tutorial](github.com/pinga-lab/nmo-tutorial
