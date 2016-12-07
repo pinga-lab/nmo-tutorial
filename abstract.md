@@ -8,6 +8,6 @@ in which \(v_{NMO}\) is the NMO velocity.
 When applied to a Common Mid Point (CMP) section, the equation above is supposed to turn the hyperbola associated with a reflection into a straight horizontal line, like we see in figure 1.
 What most text books won't tell you is *how, exactly, do you apply this equation to the data*?
 
-Read on and I'll explain step-by-step how the algorithm for NMO correction from \cite{Yilmaz_2001} works and how to implement it in Python.
+Read on and I'll explain step-by-step how the algorithm for NMO correction from \citep{Yilmaz_2001} works and how to implement it in Python.
 The accompanying Jupyter notebook \cite{Perez_2007}contains the full source code as well as an interactive example of velocity analysis.
 You can download the notebook at [github.com/seg](https://github.com/seg) or find links to run it online at [github.com/pinga-lab/nmo-tutorial](https://github.com/pinga-lab/nmo-tutorial).
