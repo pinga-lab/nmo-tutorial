@@ -21,7 +21,7 @@ Now we have to define the function that calculates the reflection travel-time \(
 
 
 For the interpolation, we'll use cubic splines from the `scipy.interpolate` package. 
-See the tutorial by \cite{Hall_2016} on interpolation with scipy.
+For more information on interpolation with scipy, see the tutorial by \cite{Hall_2016}.
 
     def sample_trace(trace, time, dt):
 
