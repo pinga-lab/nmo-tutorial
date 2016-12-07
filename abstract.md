@@ -3,7 +3,7 @@ There you'll see that we can correct the measured travel-time of a reflected wav
 
 $$ t_0^2 = t^2 - \dfrac{x^2}{v_{NMO}^2} $$
 
-
+\(t_0^2=t^2-\frac{x^2}{v_{NMO}^2}\)
 
 in which \(v_{NMO}\) is the NMO velocity.
 
