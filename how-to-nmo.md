@@ -2,7 +2,7 @@
 
 How do  we find where each point in the CMP should go in the final NMO corrected gather?
 It's surprisingly difficult to find a description of the actual method of calculating amplitudes in NMO correction.
-The only one I found is a paragraph from \cite{Yilmaz_2001} (http://wiki.seg.org/wiki/NMO_for_a_flat_reflector):
+The only one I found is a paragraph from \cite{Yilmaz_2001} (available on the SEG Wiki at [wiki.seg.org/wiki/NMO_for_a_flat_reflector](http://wiki.seg.org/wiki/NMO_for_a_flat_reflector)):
 
 
 > "The idea is to find the amplitude value at A′ on the NMO-corrected gather from the  amplitude value at A on the original CMP gather. Given quantities \(t_0\), \(x\), and \(V_{NMO}\), compute t from equation (1). [...] The amplitude value at this time can be computed using the amplitudes at the neighboring integer sample values [...] This is done by an interpolation scheme that involves the four samples."
