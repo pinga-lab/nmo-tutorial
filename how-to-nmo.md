@@ -18,5 +18,10 @@ Here is the algorithm:
 * Use the amplitude in these four samples to interpolate the amplitude at time \(t\).
 * Copy the interpolated amplitude to the NMO gather at (\(t_0, x\)).
 
+At the end of this algorithm, we will have a fully populated NMO gather with the amplitudes sampled from the CMP. 
+Notice that we didn't actually use the equation for \(t_0\).
+Instead we calculate the reflection travel-time \(t\).
+Good luck guessing that from the equation alone.
+
 
 Figure: Single trace from CMP (a) and corresponding single trace from NMO (b). Should be like the other figure but blank other traces. Include data as .- to highlight that they are discrete numbers. Include arrow from 1 point in (b) to (a). There will be no exact point in (a) so show the 4 points around and an interpolated curve. 
