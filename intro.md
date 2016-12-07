@@ -6,12 +6,8 @@ Our NMO corrected gather will also be a matrix of amplitudes as a function of ti
 So what we really have to do is figure out how to transform one matrix of amplitudes into the other.
 *But the equation has no amplitudes*!
 
+This is a major divide between the formula we've all seen before and what actually goes on in the software that implements it. And most of you probably never thought about it (I certainly hadn't).
 
-Here is a CMP gather. How do you plug it into the equation?
-The CMP is like a matrix of amplitude values.
-And I want to transform that into another matrix of amplitudes correct for NMO.
-But there is no amplitude in the equation!
-What now?
 
 
 Figure: A CMP (a) next to an NMO (b). Axis show that time in (b) is t0. Arrow connecting a cell in (a) to a cell in (b). Arrow should go both ways and show respective time conversion equations. Probably better to use travel time curves instead of real data for this.
