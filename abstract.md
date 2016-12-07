@@ -11,3 +11,8 @@ What most text books won't tell you is *how, exactly, do you apply this equation
 Read on and I'll explain step-by-step how the algorithm for NMO correction from \citep{Yilmaz_2001} works and how to implement it in Python.
 The accompanying Jupyter notebook \cite{Perez_2007} contains the full source code as well as an interactive example of velocity analysis.
 You can download the notebook at [github.com/seg](https://github.com/seg) or find links to run it online at [github.com/pinga-lab/nmo-tutorial](https://github.com/pinga-lab/nmo-tutorial).
+
+
+
+
+Figure: A CMP (a) next to an NMO (b). Axis show that time in (b) is t0. Arrow connecting a cell in (a) to a cell in (b). Arrow should go both ways and show respective time conversion equations. Probably better to use travel time curves instead of real data for this.
