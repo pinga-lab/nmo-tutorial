@@ -1,3 +1,6 @@
+**This is a part of The Leading Edge "Geophysical Tutorials" series. 
+You can read more about it at** https://dx.doi.org/10.1190/tle35020190.1
+
 Open any text book about seismic data processing and you will inevitably find a section about the Normal Moveout (NMO) correction. 
 There you'll see that we can correct the measured travel-time of a reflected wave (\(t\)) at a given offset (\(x\)) to obtain the travel-time at normal incidence (\(t_0\)) by applying the following equation (or something derived from it)
 
