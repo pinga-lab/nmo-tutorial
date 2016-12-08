@@ -5,6 +5,9 @@ by [Leonardo Uieda](http://www.leouieda.com)
 *This is a part of The Leading Edge [tutorials
 series](https://dx.doi.org/10.1190/tle35020190.1).*
 
+The manuscript was written in [Authorea](https://www.authorea.com). 
+You can view and comment on the text at https://www.authorea.com/142722/6xYqjfYPnmtVRCvfCqrP9g
+
 Open any text book about seismic data processing and you will inevitably find a
 section about the Normal Moveout (NMO) correction.
 When applied to a Common Mid Point (CMP) section, the correction is supposed to
@@ -14,7 +17,6 @@ What most text books won't tell you is *how, exactly, do you apply this
 equation to the data*?
 
 That is what this tutorial will teach you (hopefully).
-
 
 ## Running the code
 
@@ -40,6 +42,7 @@ Alternatively, you can run it in our own machine by following these steps:
    the notebook.
 5. Rejoice!
 
+![](http://i.giphy.com/WIg8P0VNpgH8Q.gif)
 
 ## License
 
