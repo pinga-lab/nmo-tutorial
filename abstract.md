@@ -12,5 +12,5 @@ When applied to a Common Mid Point (CMP) section, the equation above is supposed
 What most text books won't tell you is *how, exactly, do you apply this equation to the data*?
 
 Read on and I'll explain step-by-step how the algorithm for NMO correction from \citep{Yilmaz_2001} works and how to implement it in Python.
-The accompanying Jupyter notebook \cite{Perez_2007} contains the full source code, with documentation and tests.
+The accompanying Jupyter notebook \cite{Perez_2007} contains the full source code, with documentation and tests for each function.
 You can download the notebook at [github.com/seg](https://github.com/seg) or find links to run it online at [github.com/pinga-lab/nmo-tutorial](https://github.com/pinga-lab/nmo-tutorial).
