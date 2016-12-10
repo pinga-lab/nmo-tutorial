@@ -6,7 +6,7 @@ The only one I could find is a single paragraph in the book by \cite{Yilmaz_2001
 > "The idea is to find the amplitude value at A' on the NMO-corrected gather from the amplitude value at A on the original CMP gather. Given quantities \(t_0\), \(x\), and \(V_{NMO}\), compute \(t\) from equation (1). [...] The amplitude value at this time can be computed using the amplitudes at the neighboring integer sample values [...] This is done by an interpolation scheme that involves the four samples."
 
 What that paragraph says is that we should actually do it backwards. 
-Instead of mapping where each point in the CMP goes in the NMO corrected gather, we should map where each point in the NMO gather comes from in the CMP.
+Instead of mapping where each point in the CMP goes in the NMO corrected gather, we should map where each point in the NMO gather comes from in the CMP (see figure 1).
 Here is the algorithm:
 
 1. Start with an NMO gather filled with zeros.
