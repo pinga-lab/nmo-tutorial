@@ -18,6 +18,8 @@ equation to the data*?
 
 That is what this tutorial will teach you (hopefully).
 
+<img src="figures/nmo-application/nmo-application.png" width="800px">
+
 ## Running the code
 
 The code that accompanies the tutorial is in the `step-by-step-nmo.ipynb`
