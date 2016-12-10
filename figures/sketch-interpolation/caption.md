@@ -1,1 +1,1 @@
-Replace this text with your caption
+Single trace from CMP (a) and corresponding single trace from NMO (b). Should be like the other figure but blank other traces. Include data as .- to highlight that they are discrete numbers. Include arrow from 1 point in (b) to (a). There will be no exact point in (a) so show the 4 points around and an interpolated curve. 
