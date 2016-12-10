@@ -55,4 +55,4 @@ For more information on interpolation with scipy, see the tutorial by \cite{Hall
 
 
 Figure 2 shows the results of applying our `nmo_correction` function to a synthetic CMP. 
-The Jupyter notebook has the full code for this application as well all the functions above with documentation in the form of docstrings and tests.
+The Jupyter notebook has the full code for this application.
