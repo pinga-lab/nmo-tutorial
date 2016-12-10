@@ -28,5 +28,3 @@ For more information on interpolation with scipy, see the tutorial by \cite{Hall
 
 Figure 2 shows the results of applying our `nmo_correction` function to a synthetic CMP. 
 The Jupyter notebook has the full code for this application as well as an interactive example that uses the `nmo_correction` function for velocity analysis.
-
-Figure: (a) CMP, (b) velocity profile, (c) NMO. Maybe include lines in the NMO with the true two-way travel time.
