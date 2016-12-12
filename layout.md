@@ -1,4 +1,4 @@
-abstract.md
+abstract.tex
 intro.md
 how-to-nmo.md
 figures/sketch-interpolation/sketch-interpolation.png
