@@ -1,5 +1,5 @@
 abstract.tex
-intro.md
+intro.tex
 how-to-nmo.md
 figures/sketch-interpolation/sketch-interpolation.png
 the-code-of-nmo.md
