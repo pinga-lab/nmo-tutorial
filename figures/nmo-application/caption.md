@@ -1,1 +1,1 @@
-Figure 2: In the left is a synthetic CMP gather. In the middle is the output from our `nmo_correction` function. In the right is the \(v_{NMO}\) profile passed to `nmo_correction`.
+Figure 2: In the left is the \(v_{NMO}\) profile passed to `nmo_correction`. The profile was interpolated on a line using the two picked velocities (black squares). In the middle is a synthetic CMP gather. In the right is the output from our `nmo_correction` function. 
