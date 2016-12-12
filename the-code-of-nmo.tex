@@ -34,7 +34,7 @@ of the details pushed into the \texttt{reflection_time} and
 
 Now we need to define the function that calculates the reflection travel-time.
 
-\begin{verbatim}
+\begin{lstlisting}[language=python]
 def reflection_time(t0, offset, velocity):
     t = np.sqrt(t0**2 + offset**2/velocity**2)
     return t
