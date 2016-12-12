@@ -10,7 +10,6 @@ The first function I'll define performs the NMO correction on a given CMP gather
 We'll assume that the CMP gather is a 2D numpy array of amplitudes and that the velocities are a 1D numpy array with \(v_{NMO}\) for each time sample.
 
     import numpy as np
-    from scipy.interpolate import CubicSpline
 
     def nmo_correction(cmp, dt, offsets, velocities):
         nmo = np.zeros_like(cmp)
@@ -26,24 +25,28 @@ We'll assume that the CMP gather is a 2D numpy array of amplitudes and that the 
                     nmo[i, j] = amplitude
         return nmo    
         
+This function is essentially the algorithm above translated to Python with some of the details pushed into the `reflection_time` and `sample_trace` functions.
 
-Now we have to define the function that calculates the reflection travel-time \(t\) and the one that samples the amplitude from the CMP using interpolation.
+Now we need to define the function that calculates the reflection travel-time.
 
     def reflection_time(t0, offset, velocity):
         t = np.sqrt(t0**2 + offset**2/velocity**2)
         return t
 
-
-For the interpolation, we'll use cubic splines from the `scipy.interpolate` package. 
+For the `sample_trace` function, we'll use cubic splines from the `scipy.interpolate` package. 
 For more information on interpolation with scipy, see the tutorial by \cite{Hall_2016}.
 
+    from scipy.interpolate import CubicSpline
+    
     def sample_trace(trace, time, dt):
         # The floor function will give us the integer
         # right behind a given float.
         before = int(np.floor(time/dt))
         nsamples = trace.size
-        # Use the 4 samples around time to interpolate
+        # Use the 4 samples around 'time' to interpolate
+        # the amplitude
         samples = np.arange(before - 1, before + 3, 1)
+        # Check if any sample falls outside of our trace
         if np.any(samples < 0) or np.any(samples >= nsamples):
             amplitude = None
         else:
@@ -53,6 +56,5 @@ For more information on interpolation with scipy, see the tutorial by \cite{Hall
             amplitude = interpolator(time)
         return amplitude
 
-
-Figure 2 shows the results of applying our `nmo_correction` function to a synthetic CMP. 
-The Jupyter notebook has the full code for this application.
+The Jupyter notebook contains the full code for these functions, including documentation through Python *dostrings* and code that tests that the functions work as expected. 
+Also included is an application of our `nmo_correction` function to a synthetic CMP (Figure 2). 
