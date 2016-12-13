@@ -6,7 +6,7 @@ by [Leonardo Uieda](http://www.leouieda.com)
 series](https://dx.doi.org/10.1190/tle35020190.1).*
 
 The manuscript was written in [Authorea](https://www.authorea.com). 
-You can view and comment on the text at https://www.authorea.com/142722/6xYqjfYPnmtVRCvfCqrP9g
+You can view and comment on the text at https://www.authorea.com/users/1856/articles/142722/_show_article
 
 Open any text book about seismic data processing and you will inevitably find a
 section about the Normal Moveout (NMO) correction.
