@@ -10,8 +10,7 @@ The first function I'll define performs the NMO correction on a given CMP gather
 We'll assume that the CMP gather is a 2D array of amplitudes and that the
 velocities are a 1D array with $v_\mathrm{NMO}$ for each time sample.
 
-% \begin{lstlisting}[language=python]
-\begin{verbatim}
+\begin{lstlisting}[language=python]
     import numpy as np
 
 
@@ -26,8 +25,7 @@ velocities are a 1D array with $v_\mathrm{NMO}$ for each time sample.
                 if amplitude is not None:
                     nmo[i, j] = amplitude
         return nmo
-\end{verbatim}
-% \end{lstlisting}
+\end{lstlisting}
 
 This function is essentially the algorithm above translated to Python with some
 of the details pushed into the \texttt{reflection\_time} and
