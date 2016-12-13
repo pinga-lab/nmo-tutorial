@@ -7,7 +7,12 @@ The only one I could find is a single paragraph in the book by
 \href{http://wiki.seg.org/wiki/NMO_for_a_flat_reflector}{wiki.seg.org/wiki/NMO\_for\_a\_flat\_reflector}):
 
 \begin{quotation}
-"The idea is to find the amplitude value at A' on the NMO-corrected gather from the amplitude value at A on the original CMP gather. Given quantities $t_0$, $x$, and $v_\mathrm{NMO}$, compute $t$ from equation (1). [...] The amplitude value at this time can be computed using the amplitudes at the neighboring integer sample values [...] This is done by an interpolation scheme that involves the four samples."
+``The idea is to find the amplitude value at A' on the NMO-corrected gather
+from the amplitude value at A on the original CMP gather. Given quantities
+$t_0$, $x$, and $v_\mathrm{NMO}$, compute $t$ from equation (1). [...] The
+amplitude value at this time can be computed using the amplitudes at the
+neighboring integer sample values [...] This is done by an interpolation scheme
+that involves the four samples.''
 \end{quotation}
 
 This paragraph is telling us to do the calculation backwards.
@@ -37,5 +42,5 @@ Here is the full algorithm:
 At the end of this algorithm, we will have a fully populated NMO gather with
 the amplitudes sampled from the CMP.
 Notice that we didn't actually use the equation for $t_0$.
-Instead we calculate the reflection travel-time $t$.
+Instead we calculate the reflection travel-time ($t$).
 Good luck guessing that from the equation alone.
