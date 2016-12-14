@@ -15,4 +15,4 @@ RUN echo "export PATH=/home/main/anaconda2/envs/binder/bin/:/home/main/anaconda3
 RUN conda install -n binder jupyter
 RUN /bin/bash -c "source activate binder && jupyter kernelspec install-self --user"
 # To get around the new default authentication in Jupyter
-RUN /bin/bash -c "source activate binder && jupyter notebook --NotebookApp.token=''"
+RUN echo "c.NotebookApp.token = ''" >> jupyter_notebook_config.py
