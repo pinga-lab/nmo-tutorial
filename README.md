@@ -5,7 +5,7 @@ by [Leonardo Uieda](http://www.leouieda.com)
 *This is a part of The Leading Edge [tutorials
 series](https://dx.doi.org/10.1190/tle35020190.1).*
 
-The manuscript was written in [Authorea](https://www.authorea.com). 
+The manuscript was written in [Authorea](https://www.authorea.com).
 You can view and comment on the text at https://www.authorea.com/users/1856/articles/142722/_show_article
 
 Open any text book about seismic data processing and you will inevitably find a
@@ -25,12 +25,7 @@ That is what this tutorial will teach you (hopefully).
 The code that accompanies the tutorial is in the `step-by-step-nmo.ipynb`
 [Jupyter notebook](http://jupyter.org/).
 
-You can run and edit the code online by following the link below (thanks to the
-awesome [Binder](http://mybinder.org/) project):
-
-http://mybinder.org/repo/pinga-lab/nmo-tutorial/notebooks/step-by-step-nmo.ipynb
-
-Alternatively, you can run it in our own machine by following these steps:
+You can run it in our own machine by following these steps:
 
 1. Make sure you have Python 3.5 with the latest versions of numpy, scipy,
    matplotlib, and jupyter installed. The easiest way to do that is by
