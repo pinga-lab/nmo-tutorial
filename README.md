@@ -3,9 +3,9 @@
 by [Leonardo Uieda](http://www.leouieda.com)
 
 *This is a part of The Leading Edge [geophysical tutorials
-series](https://dx.doi.org/10.1190/tle35020190.1).*
+series](https://doi.org/10.1190/tle35020190.1).*
 
-doi: [10.1190/tle36020179.1](http://dx.doi.org/10.1190/tle36020179.1)
+doi: [10.1190/tle36020179.1](https://doi.org/10.1190/tle36020179.1)
 
 The tutorials are all **open access** and can be freely downloaded from the SEG
 website (follow the doi link).
